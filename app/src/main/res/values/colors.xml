@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clock_orange">#FFFF7023</color>
+    <color name="clock_background">#FF101012</color>
+    <color name="clock_surface">#FF1D1B1B</color>
+    <color name="clock_muted">#FFA69F9A</color>
+</resources>
