@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingTop="14dp"
+    android:paddingBottom="14dp"
+    android:background="@drawable/widget_background">
+
+    <TextView
+        android:id="@+id/widget_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DARK ORANGE"
+        android:textColor="@color/clock_orange"
+        android:textSize="10sp"
+        android:fontFamily="sans"
+        android:letterSpacing="0.18"
+        android:textStyle="bold" />
+
+    <TextClock
+        android:id="@+id/widget_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:format24Hour="HH:mm"
+        android:format12Hour="h:mm"
+        android:gravity="start"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/white"
+        android:textSize="44sp"
+        android:fontFamily="sans-serif-light"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/widget_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MONDAY, 19 OCT"
+        android:textColor="@color/clock_muted"
+        android:textSize="12sp"
+        android:paddingTop="3dp" />
+</LinearLayout>
